@@ -10,7 +10,7 @@ public class DataPersistanceManager : MonoBehaviour
 
     [Header("File Storage Config")]
     [SerializeField] private string fileName;
-    private static readonly string dataPath = @"C:\Users\KEREM\Desktop\GameFiles";
+    private static readonly string dataPath = @"path";
 
     private List<IDataPersistance> dataPersistanceObjects;
     private FileDataHandler fileDataHandler;
